@@ -5,9 +5,10 @@ backend:
 
 media_folder: "src/img/gallery"
 
-collection:
+collections:
   - name: food
     label: "Food Item"
+    folder: "site/content/food"
     create: true
     fields:
       - {label: "Name of item", name: "title", widget: "string"}
