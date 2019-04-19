@@ -4,7 +4,7 @@ categories:
   - lunch
   - dinner
 description: 'Rice, banana leave, roasted chicken'
-type: prasmanan
+type: rawbar
 price: '33'
 ---
 
