@@ -13,3 +13,15 @@ title = "Food Coma"
     name = "Food"
     url  = "/food"
     weight = 2
+[[menu.main]]
+    name = "Drinks"
+    url  = "/drinks"
+    weight = 3
+[[menu.main]]
+    name = "Gallery"
+    url  = "/gallery"
+    weight = 4
+[[menu.main]]
+    name = "Reservation"
+    url  = "/contact"
+    weight = 5
