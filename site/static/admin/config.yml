@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: bennyekop/hugo-restaurant
+  branch: master
+
+media_folder: "src/img/gallery"
+
+collection:
+  - name: food
+    label: "Food Item"
+    create: true
+    fields:
+      - {label: "Name of item", name: "title", widget: "string"}
+      - {label: "Supported Meals", name: "categories", widget: "list", default:["lunch", "dinner"]}
+      - {label: "Ingredients/Description", name: "description", widget: "text"}
+      - {label: "Type of Food", name: "type", widget: "string", default: "rawbar"}
+      - {label: "Price", name: "price", widget: "string"}
