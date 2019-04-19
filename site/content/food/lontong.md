@@ -4,7 +4,7 @@ categories:
   - lunch
   - dinner
 description: 'Rice, banana leave, roasted chicken'
-type: rawbar
+type: raw bar
 price: '33'
 ---
 
